@@ -1,0 +1,11 @@
+.button{
+    padding: 8px 20px;
+    background-color: var(--color-golden);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font-base);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

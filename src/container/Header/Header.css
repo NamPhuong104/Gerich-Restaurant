@@ -1,0 +1,48 @@
+.app__header{
+    background-color: var(--color-black);
+}
+
+.app__wrapper__info{
+    width: 45%;
+}
+
+.app__wrapper__info-smallscreen{
+    max-width: 100%;
+}
+
+.app__header-h1{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 85px;
+}
+
+.app__wrapper__img img{
+    width: 550px;
+    height: 590px;
+}
+
+
+@media screen and (max-width: 900px){
+    .app__wrapper__info{
+        width: 300px;
+    }
+    .app__header-h1{    
+        font-size: 80px;
+        line-height: 90px;
+    }
+    .p__opensans{
+        font-size: 12px;
+    }
+    .app__wrapper__img img{
+        width: 326px;
+        height: 360px;
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (max-width: 650px){
+}
